@@ -1,0 +1,205 @@
+[0.000000] (-) TimerEvent: {}
+[0.000166] (master_olee_controller) JobQueued: {'identifier': 'master_olee_controller', 'dependencies': OrderedDict()}
+[0.000283] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.000323] (ydlidar_sdk) JobQueued: {'identifier': 'ydlidar_sdk', 'dependencies': OrderedDict()}
+[0.000352] (master_olee_controller) JobStarted: {'identifier': 'master_olee_controller'}
+[0.003872] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.004987] (ydlidar_sdk) JobStarted: {'identifier': 'ydlidar_sdk'}
+[0.099484] (-) TimerEvent: {}
+[0.118440] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.118705] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/olee/olee_ros2_ws/src/ydlidar_ros2_driver-humble', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/install/ydlidar_ros2_driver'], 'cwd': '/home/olee/olee_ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'olee'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/olee'), ('OLDPWD', '/home/olee/olee_ws/src/tflidar_ros/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2952'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/olee/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'olee'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'olee'), ('STM32_PRG_PATH', '/home/olee/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/olee/ros2_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/home/olee/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/olee-Latitude-3450:@/tmp/.ICE-unix/1597,unix/olee-Latitude-3450:/tmp/.ICE-unix/1597'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/989e63c1_865c_4c27_b0a1_745622efed73'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RFZVF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/home/olee/ros2_ws/install/ydlidar_ros2_driver:/home/olee/ros2_ws/install/rf2o_laser_odometry:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/olee/olee_ros2_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/olee/ros2_ws/install/ydlidar_sdk:/home/olee/ros2_ws/install/ydlidar_ros2_driver:/home/olee/ros2_ws/install/rf2o_laser_odometry:/opt/ros/humble')]), 'shell': False}
+[0.121178] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'cmake'}
+[0.121422] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/olee/olee_ros2_ws/src/YDLidar-SDK-master', '-DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/install/ydlidar_sdk'], 'cwd': '/home/olee/olee_ros2_ws/build/ydlidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'olee'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/olee'), ('OLDPWD', '/home/olee/olee_ws/src/tflidar_ros/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2952'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/olee/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'olee'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'olee'), ('STM32_PRG_PATH', '/home/olee/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/olee/ros2_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/home/olee/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/olee-Latitude-3450:@/tmp/.ICE-unix/1597,unix/olee-Latitude-3450:/tmp/.ICE-unix/1597'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/989e63c1_865c_4c27_b0a1_745622efed73'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RFZVF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/home/olee/ros2_ws/install/ydlidar_ros2_driver:/home/olee/ros2_ws/install/rf2o_laser_odometry:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/olee/olee_ros2_ws/build/ydlidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/olee/ros2_ws/install/ydlidar_sdk:/home/olee/ros2_ws/install/ydlidar_ros2_driver:/home/olee/ros2_ws/install/rf2o_laser_odometry')]), 'shell': False}
+[0.128020] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.128190] (ydlidar_sdk) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.128262] (ydlidar_sdk) StderrLine: {'line': b'  CMake.\n'}
+[0.128326] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.128388] (ydlidar_sdk) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.128451] (ydlidar_sdk) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.128512] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.128574] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.165121] (ydlidar_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.167005] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199693] (-) TimerEvent: {}
+[0.202743] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.209050] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.214423] (ydlidar_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.221709] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.263542] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.269980] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.270175] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.270380] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.272192] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.280217] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.285650] (ydlidar_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.285895] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.286138] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.288267] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299817] (-) TimerEvent: {}
+[0.328253] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.336040] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.336331] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.336706] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.346402] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:15 (find_package):\n'}
+[0.346558] (ydlidar_ros2_driver) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.346627] (ydlidar_ros2_driver) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.346689] (ydlidar_ros2_driver) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.346747] (ydlidar_ros2_driver) StderrLine: {'line': b'\n'}
+[0.346806] (ydlidar_ros2_driver) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.346863] (ydlidar_ros2_driver) StderrLine: {'line': b'  any of the following names:\n'}
+[0.346933] (ydlidar_ros2_driver) StderrLine: {'line': b'\n'}
+[0.346995] (ydlidar_ros2_driver) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.347055] (ydlidar_ros2_driver) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.347113] (ydlidar_ros2_driver) StderrLine: {'line': b'\n'}
+[0.347170] (ydlidar_ros2_driver) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.347227] (ydlidar_ros2_driver) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.347286] (ydlidar_ros2_driver) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.347342] (ydlidar_ros2_driver) StderrLine: {'line': b'  has been installed.\n'}
+[0.347399] (ydlidar_ros2_driver) StderrLine: {'line': b'\n'}
+[0.347456] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[0m\n'}
+[0.347515] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.347582] (ydlidar_ros2_driver) StdoutLine: {'line': b'See also "/home/olee/olee_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/CMakeOutput.log".\n'}
+[0.350305] (ydlidar_ros2_driver) CommandEnded: {'returncode': 1}
+[0.350904] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.359446] (ydlidar_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.359706] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.360198] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.360762] (ydlidar_sdk) StdoutLine: {'line': b'-- Current platform: Linux\n'}
+[0.361650] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:58 (cmake_policy):\n'}
+[0.362953] (ydlidar_sdk) StderrLine: {'line': b'  The OLD behavior for policy CMP0053 will be removed from a future version\n'}
+[0.363074] (ydlidar_sdk) StderrLine: {'line': b'  of CMake.\n'}
+[0.363265] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.363600] (ydlidar_sdk) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[0.363925] (ydlidar_sdk) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[0.364125] (ydlidar_sdk) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[0.364494] (ydlidar_sdk) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[0.364655] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.364965] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.365060] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:61 (cmake_policy):\n'}
+[0.365330] (ydlidar_sdk) StderrLine: {'line': b'  The OLD behavior for policy CMP0037 will be removed from a future version\n'}
+[0.365577] (ydlidar_sdk) StderrLine: {'line': b'  of CMake.\n'}
+[0.365645] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.365708] (ydlidar_sdk) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[0.365773] (ydlidar_sdk) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[0.365839] (ydlidar_sdk) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[0.365911] (ydlidar_sdk) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[0.365987] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.366051] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.366115] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:64 (cmake_policy):\n'}
+[0.366178] (ydlidar_sdk) StderrLine: {'line': b'  The OLD behavior for policy CMP0043 will be removed from a future version\n'}
+[0.366243] (ydlidar_sdk) StderrLine: {'line': b'  of CMake.\n'}
+[0.366307] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.366369] (ydlidar_sdk) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[0.366433] (ydlidar_sdk) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[0.366496] (ydlidar_sdk) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[0.366557] (ydlidar_sdk) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[0.366623] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.366691] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.366759] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 1}
+[0.384811] (master_olee_controller) JobEnded: {'identifier': 'master_olee_controller', 'rc': 'SIGINT'}
+[0.400052] (-) TimerEvent: {}
+[0.406985] (ydlidar_sdk) StdoutLine: {'line': b'-- Found SWIG: /home/olee/.local/bin/swig4.0 (found version "4.4.0")  \n'}
+[0.424993] (ydlidar_sdk) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3.10 (found version "3.10.12") \n'}
+[0.432194] (ydlidar_sdk) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") \n'}
+[0.500172] (-) TimerEvent: {}
+[0.589910] (ydlidar_sdk) StdoutLine: {'line': b'-- Found GTest: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.11.0")  \n'}
+[0.590384] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at core/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.590509] (ydlidar_sdk) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.590546] (ydlidar_sdk) StderrLine: {'line': b'  CMake.\n'}
+[0.590580] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.590610] (ydlidar_sdk) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.590640] (ydlidar_sdk) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.590671] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.590702] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.593922] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at examples/CMakeLists.txt:2 (cmake_minimum_required):\n'}
+[0.594052] (ydlidar_sdk) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.594136] (ydlidar_sdk) StderrLine: {'line': b'  CMake.\n'}
+[0.594214] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.594289] (ydlidar_sdk) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.594365] (ydlidar_sdk) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.594438] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.594512] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.595815] (ydlidar_sdk) StdoutLine: {'line': b'-- build python API....\n'}
+[0.597026] (ydlidar_sdk) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/UseSWIG.cmake:775 (message):\n'}
+[0.597152] (ydlidar_sdk) StderrLine: {'line': b'  Policy CMP0078 is not set: UseSWIG generates standard target names.  Run\n'}
+[0.597238] (ydlidar_sdk) StderrLine: {'line': b'  "cmake --help-policy CMP0078" for policy details.  Use the cmake_policy\n'}
+[0.597315] (ydlidar_sdk) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.597390] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.597465] (ydlidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.597540] (ydlidar_sdk) StderrLine: {'line': b'  python/CMakeLists.txt:35 (swig_add_library)\n'}
+[0.597614] (ydlidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.597688] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.597823] (ydlidar_sdk) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/UseSWIG.cmake:617 (message):\n'}
+[0.597907] (ydlidar_sdk) StderrLine: {'line': b'  Policy CMP0086 is not set: UseSWIG honors SWIG_MODULE_NAME via -module\n'}
+[0.597988] (ydlidar_sdk) StderrLine: {'line': b'  flag.  Run "cmake --help-policy CMP0086" for policy details.  Use the\n'}
+[0.598060] (ydlidar_sdk) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.598132] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.598206] (ydlidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.598279] (ydlidar_sdk) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/UseSWIG.cmake:888 (SWIG_ADD_SOURCE_TO_MODULE)\n'}
+[0.598352] (ydlidar_sdk) StderrLine: {'line': b'  python/CMakeLists.txt:35 (swig_add_library)\n'}
+[0.598425] (ydlidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.598507] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.600232] (-) TimerEvent: {}
+[0.669738] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at cmake/install_package.cmake:101 (cmake_policy):\n'}
+[0.669913] (ydlidar_sdk) StderrLine: {'line': b'  The OLD behavior for policy CMP0026 will be removed from a future version\n'}
+[0.669986] (ydlidar_sdk) StderrLine: {'line': b'  of CMake.\n'}
+[0.670177] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.670212] (ydlidar_sdk) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[0.670243] (ydlidar_sdk) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[0.670269] (ydlidar_sdk) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[0.670292] (ydlidar_sdk) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[0.670315] (ydlidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.670339] (ydlidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:176 (install_package)\n'}
+[0.670363] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.670386] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.671012] (ydlidar_sdk) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at cmake/install_package.cmake:191 (install):\n'}
+[0.671077] (ydlidar_sdk) StderrLine: {'line': b'  Policy CMP0062 is not set: Disallow install() of export() result.  Run\n'}
+[0.671108] (ydlidar_sdk) StderrLine: {'line': b'  "cmake --help-policy CMP0062" for policy details.  Use the cmake_policy\n'}
+[0.671133] (ydlidar_sdk) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.671157] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.671181] (ydlidar_sdk) StderrLine: {'line': b'  The file\n'}
+[0.671204] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.671227] (ydlidar_sdk) StderrLine: {'line': b'    /home/olee/olee_ros2_ws/build/ydlidar_sdk/ydlidar_sdkTargets.cmake\n'}
+[0.671258] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.671284] (ydlidar_sdk) StderrLine: {'line': b'  was generated by the export() command.  It should not be installed with the\n'}
+[0.671308] (ydlidar_sdk) StderrLine: {'line': b'  install() command.  Use the install(EXPORT) mechanism instead.  See the\n'}
+[0.671331] (ydlidar_sdk) StderrLine: {'line': b'  cmake-packages(7) manual for more.\n'}
+[0.671355] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[0.671378] (ydlidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.671400] (ydlidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:176 (install_package)\n'}
+[0.671423] (ydlidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.671445] (ydlidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.675244] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[0.675313] (ydlidar_sdk) StdoutLine: {'line': b'-- +===========================================================================+\n'}
+[0.675345] (ydlidar_sdk) StdoutLine: {'line': b'-- |         Resulting configuration for                             |\n'}
+[0.675373] (ydlidar_sdk) StdoutLine: {'line': b'-- +===========================================================================+\n'}
+[0.675397] (ydlidar_sdk) StdoutLine: {'line': b'--  _________________________ PLATFORM _____________________________\n'}
+[0.675420] (ydlidar_sdk) StdoutLine: {'line': b'--  Host                        : Linux6.8.0-87-genericx86_64\n'}
+[0.675443] (ydlidar_sdk) StdoutLine: {'line': b'--  Is the system big endian?   :  No \n'}
+[0.675467] (ydlidar_sdk) StdoutLine: {'line': b'--  Word size (32/64 bit)       : 64\n'}
+[0.675491] (ydlidar_sdk) StdoutLine: {'line': b'--  CMake version               : 3.22.1\n'}
+[0.675515] (ydlidar_sdk) StdoutLine: {'line': b'--  CMake generator             : Unix Makefiles\n'}
+[0.675538] (ydlidar_sdk) StdoutLine: {'line': b'--  CMake build tool            : /usr/bin/gmake\n'}
+[0.675561] (ydlidar_sdk) StdoutLine: {'line': b'--  Compiler                    : GNU\n'}
+[0.675585] (ydlidar_sdk) StdoutLine: {'line': b'--  Configuration               : \n'}
+[0.675607] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[0.675630] (ydlidar_sdk) StdoutLine: {'line': b'--  __________________________ OPTIONS _____________________________\n'}
+[0.675653] (ydlidar_sdk) StdoutLine: {'line': b'--  Build YDLidar-SDK as a shared library?\xe3\x80\x80\xe3\x80\x80 :  No \n'}
+[0.675677] (ydlidar_sdk) StdoutLine: {'line': b'--  Build Examples?\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80 : Yes \n'}
+[0.675704] (ydlidar_sdk) StdoutLine: {'line': b'--  Build C Sharp API?\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80 :  No \n'}
+[0.675755] (ydlidar_sdk) StdoutLine: {'line': b'--  Build TEST?  \t\t\t\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80 :  No \n'}
+[0.675779] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[0.675803] (ydlidar_sdk) StdoutLine: {'line': b'--  _________________________ INSTALL _____________________\n'}
+[0.675826] (ydlidar_sdk) StdoutLine: {'line': b'--  Install prefix                    : /home/olee/olee_ros2_ws/install/ydlidar_sdk\n'}
+[0.675850] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[0.675874] (ydlidar_sdk) StdoutLine: {'line': b'--  _______________________ WRAPPERS/BINDINGS ______________________\n'}
+[0.675911] (ydlidar_sdk) StdoutLine: {'line': b'--  Python bindings (pyydlidar)   : Yes \n'}
+[0.675936] (ydlidar_sdk) StdoutLine: {'line': b'--   - dep: Swig found?       : Yes [Version: 4.4.0]\n'}
+[0.675960] (ydlidar_sdk) StdoutLine: {'line': b'--   - dep: PythonLibs found?  : Yes [Version: 3.10.12]\n'}
+[0.675988] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[0.676012] (ydlidar_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.691891] (ydlidar_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[0.697300] (ydlidar_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/olee/olee_ros2_ws/build/ydlidar_sdk\n'}
+[0.700321] (-) TimerEvent: {}
+[0.702185] (ydlidar_sdk) JobEnded: {'identifier': 'ydlidar_sdk', 'rc': 'SIGINT'}
+[0.712846] (-) EventReactorShutdown: {}

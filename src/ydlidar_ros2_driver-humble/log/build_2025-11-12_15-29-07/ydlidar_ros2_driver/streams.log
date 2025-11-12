@@ -1,0 +1,21 @@
+[0.009s] Invoking command in '/home/olee/olee_ros2_ws/src/ydlidar_ros2_driver-humble/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/olee/olee_ros2_ws/src/ydlidar_ros2_driver-humble -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/ydlidar_ros2_driver-humble/install/ydlidar_ros2_driver
+[0.023s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[0.023s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.023s]   has asked CMake to find a package configuration file provided by
+[0.023s]   "ament_cmake", but CMake did not find one.
+[0.023s] 
+[0.023s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.023s]   any of the following names:
+[0.024s] 
+[0.024s]     ament_cmakeConfig.cmake
+[0.024s]     ament_cmake-config.cmake
+[0.024s] 
+[0.024s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.024s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.024s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.024s]   has been installed.
+[0.024s] 
+[0.024s] [0m
+[0.024s] -- Configuring incomplete, errors occurred!
+[0.024s] See also "/home/olee/olee_ros2_ws/src/ydlidar_ros2_driver-humble/build/ydlidar_ros2_driver/CMakeFiles/CMakeOutput.log".
+[0.025s] Invoked command in '/home/olee/olee_ros2_ws/src/ydlidar_ros2_driver-humble/build/ydlidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/olee/olee_ros2_ws/src/ydlidar_ros2_driver-humble -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/ydlidar_ros2_driver-humble/install/ydlidar_ros2_driver

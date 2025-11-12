@@ -1,0 +1,40 @@
+[0.116s] Invoking command in '/home/olee/olee_ros2_ws/src/build/ydlidar_sdk': /usr/bin/cmake --build /home/olee/olee_ros2_ws/src/build/ydlidar_sdk -- -j12 -l12
+[0.145s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_sdk[0m
+[0.150s] [  1%] Built target ydlidar_swig_compilation
+[0.164s] [ 37%] Built target ydlidar_sdk
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target et_test[0m
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target gs_test[0m
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target gs_ota[0m
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target gs_restart[0m
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target tmini-sh_test[0m
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target gs_test2[0m
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target scl_test[0m
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target sdm18_test[0m
+[0.183s] [35m[1mConsolidate compiler generated dependencies of target sdm_test[0m
+[0.187s] [35m[1mConsolidate compiler generated dependencies of target tmini_test[0m
+[0.188s] [35m[1mConsolidate compiler generated dependencies of target tea_test[0m
+[0.190s] [35m[1mConsolidate compiler generated dependencies of target tia_test[0m
+[0.194s] [ 41%] Built target et_test
+[0.198s] [ 48%] Built target gs_ota
+[0.198s] [ 51%] Built target tmini-sh_test
+[0.198s] [ 55%] Built target gs_restart
+[0.198s] [ 48%] Built target gs_test
+[0.198s] [ 58%] Built target scl_test
+[0.200s] [ 65%] Built target sdm18_test
+[0.201s] [ 65%] Built target sdm_test
+[0.201s] [ 68%] Built target tmini_test
+[0.203s] [35m[1mConsolidate compiler generated dependencies of target tof_test[0m
+[0.203s] [ 72%] Built target tia_test
+[0.205s] [ 75%] Built target gs_test2
+[0.205s] [ 79%] Built target tea_test
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target tri_and_gs_test[0m
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target tri_restart[0m
+[0.207s] [35m[1mConsolidate compiler generated dependencies of target _ydlidar[0m
+[0.207s] [35m[1mConsolidate compiler generated dependencies of target lidar_c_api_test[0m
+[0.207s] [35m[1mConsolidate compiler generated dependencies of target tri_test[0m
+[0.213s] [ 82%] Built target tof_test
+[0.215s] [ 86%] Built target lidar_c_api_test
+[0.215s] [ 89%] Built target tri_restart
+[0.216s] [ 93%] Built target _ydlidar
+[0.217s] [ 96%] Built target tri_and_gs_test
+[0.217s] [100%] Built target tri_test

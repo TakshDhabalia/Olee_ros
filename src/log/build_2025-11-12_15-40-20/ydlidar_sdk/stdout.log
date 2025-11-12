@@ -1,0 +1,39 @@
+[35m[1mConsolidate compiler generated dependencies of target ydlidar_sdk[0m
+[  1%] Built target ydlidar_swig_compilation
+[ 37%] Built target ydlidar_sdk
+[35m[1mConsolidate compiler generated dependencies of target et_test[0m
+[35m[1mConsolidate compiler generated dependencies of target gs_test[0m
+[35m[1mConsolidate compiler generated dependencies of target gs_ota[0m
+[35m[1mConsolidate compiler generated dependencies of target gs_restart[0m
+[35m[1mConsolidate compiler generated dependencies of target tmini-sh_test[0m
+[35m[1mConsolidate compiler generated dependencies of target gs_test2[0m
+[35m[1mConsolidate compiler generated dependencies of target scl_test[0m
+[35m[1mConsolidate compiler generated dependencies of target sdm18_test[0m
+[35m[1mConsolidate compiler generated dependencies of target sdm_test[0m
+[35m[1mConsolidate compiler generated dependencies of target tmini_test[0m
+[35m[1mConsolidate compiler generated dependencies of target tea_test[0m
+[35m[1mConsolidate compiler generated dependencies of target tia_test[0m
+[ 41%] Built target et_test
+[ 48%] Built target gs_ota
+[ 51%] Built target tmini-sh_test
+[ 55%] Built target gs_restart
+[ 48%] Built target gs_test
+[ 58%] Built target scl_test
+[ 65%] Built target sdm18_test
+[ 65%] Built target sdm_test
+[ 68%] Built target tmini_test
+[35m[1mConsolidate compiler generated dependencies of target tof_test[0m
+[ 72%] Built target tia_test
+[ 75%] Built target gs_test2
+[ 79%] Built target tea_test
+[35m[1mConsolidate compiler generated dependencies of target tri_and_gs_test[0m
+[35m[1mConsolidate compiler generated dependencies of target tri_restart[0m
+[35m[1mConsolidate compiler generated dependencies of target _ydlidar[0m
+[35m[1mConsolidate compiler generated dependencies of target lidar_c_api_test[0m
+[35m[1mConsolidate compiler generated dependencies of target tri_test[0m
+[ 82%] Built target tof_test
+[ 86%] Built target lidar_c_api_test
+[ 89%] Built target tri_restart
+[ 93%] Built target _ydlidar
+[ 96%] Built target tri_and_gs_test
+[100%] Built target tri_test

@@ -1,0 +1,42 @@
+[0.650s] Invoking command in '/home/olee/olee_ros2_ws/src/master_olee_controller': PYTHONPATH=/home/olee/olee_ros2_ws/src/build/master_olee_controller/prefix_override:/home/olee/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/olee/olee_ros2_ws/src/install/master_olee_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/master_olee_controller build --build-base /home/olee/olee_ros2_ws/src/build/master_olee_controller/build install --record /home/olee/olee_ros2_ws/src/build/master_olee_controller/install.log --single-version-externally-managed install_data
+[0.832s] running egg_info
+[0.843s] creating ../build/master_olee_controller/master_olee_controller.egg-info
+[0.843s] writing ../build/master_olee_controller/master_olee_controller.egg-info/PKG-INFO
+[0.843s] writing dependency_links to ../build/master_olee_controller/master_olee_controller.egg-info/dependency_links.txt
+[0.843s] writing requirements to ../build/master_olee_controller/master_olee_controller.egg-info/requires.txt
+[0.844s] writing top-level names to ../build/master_olee_controller/master_olee_controller.egg-info/top_level.txt
+[0.861s] /usr/lib/python3/dist-packages/pbr/git.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[0.861s]   import pkg_resources
+[0.919s] writing manifest file '../build/master_olee_controller/master_olee_controller.egg-info/SOURCES.txt'
+[0.947s] reading manifest file '../build/master_olee_controller/master_olee_controller.egg-info/SOURCES.txt'
+[0.947s] Traceback (most recent call last):
+[0.947s]   File "/home/olee/olee_ros2_ws/src/master_olee_controller/setup.py", line 5, in <module>
+[0.947s]     setup(
+[0.947s]   File "/home/olee/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 115, in setup
+[0.948s]     return distutils.core.setup(**attrs)
+[0.948s]   File "/home/olee/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[0.949s]     return run_commands(dist)
+[0.949s]   File "/home/olee/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[0.949s]     dist.run_commands()
+[0.949s]   File "/home/olee/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+[0.949s]     self.run_command(cmd)
+[0.949s]   File "/home/olee/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1102, in run_command
+[0.949s]     super().run_command(command)
+[0.949s]   File "/home/olee/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+[0.950s]     cmd_obj.run()
+[0.950s]   File "/home/olee/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[0.950s]     self.find_sources()
+[0.950s]   File "/home/olee/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[0.950s]     mm.run()
+[0.950s]   File "/home/olee/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+[0.950s]     self.prune_file_list()
+[0.950s]   File "/home/olee/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[0.950s]     super().prune_file_list()
+[0.950s]   File "/home/olee/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+[0.950s]     base_dir = self.distribution.get_fullname()
+[0.950s]   File "/home/olee/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[0.950s]     return _distribution_fullname(self.get_name(), self.get_version())
+[0.950s]   File "/home/olee/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[0.951s]     canonicalize_version(version, strip_trailing_zero=False),
+[0.951s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[0.968s] Invoked command in '/home/olee/olee_ros2_ws/src/master_olee_controller' returned '1': PYTHONPATH=/home/olee/olee_ros2_ws/src/build/master_olee_controller/prefix_override:/home/olee/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/olee/olee_ros2_ws/src/install/master_olee_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/master_olee_controller build --build-base /home/olee/olee_ros2_ws/src/build/master_olee_controller/build install --record /home/olee/olee_ros2_ws/src/build/master_olee_controller/install.log --single-version-externally-managed install_data

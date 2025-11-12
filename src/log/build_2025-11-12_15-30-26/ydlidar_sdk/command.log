@@ -1,0 +1,1 @@
+Invoking command in '/home/olee/olee_ros2_ws/src/build/ydlidar_sdk': /usr/bin/cmake /home/olee/olee_ros2_ws/src/YDLidar-SDK-master -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/ydlidar_sdk

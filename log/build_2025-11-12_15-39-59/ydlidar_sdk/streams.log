@@ -1,0 +1,152 @@
+[0.117s] Invoking command in '/home/olee/olee_ros2_ws/build/ydlidar_sdk': /usr/bin/cmake /home/olee/olee_ros2_ws/src/YDLidar-SDK-master -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/install/ydlidar_sdk
+[0.123s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.123s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.123s]   CMake.
+[0.123s] 
+[0.123s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.123s]   CMake that the project does not need compatibility with older versions.
+[0.123s] 
+[0.123s] [0m
+[0.160s] -- The C compiler identification is GNU 11.4.0
+[0.209s] -- The CXX compiler identification is GNU 11.4.0
+[0.217s] -- Detecting C compiler ABI info
+[0.275s] -- Detecting C compiler ABI info - done
+[0.281s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.281s] -- Detecting C compile features
+[0.281s] -- Detecting C compile features - done
+[0.283s] -- Detecting CXX compiler ABI info
+[0.346s] -- Detecting CXX compiler ABI info - done
+[0.354s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.355s] -- Detecting CXX compile features
+[0.355s] -- Detecting CXX compile features - done
+[0.356s] -- Current platform: Linux
+[0.358s] [0mCMake Deprecation Warning at CMakeLists.txt:58 (cmake_policy):
+[0.358s]   The OLD behavior for policy CMP0053 will be removed from a future version
+[0.358s]   of CMake.
+[0.358s] 
+[0.359s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.359s]   policies are deprecated and that a policy should be set to OLD only under
+[0.359s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.359s]   behavior and not rely on setting a policy to OLD.
+[0.360s] 
+[0.360s] [0m
+[0.360s] [0mCMake Deprecation Warning at CMakeLists.txt:61 (cmake_policy):
+[0.360s]   The OLD behavior for policy CMP0037 will be removed from a future version
+[0.360s]   of CMake.
+[0.360s] 
+[0.361s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.361s]   policies are deprecated and that a policy should be set to OLD only under
+[0.361s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.361s]   behavior and not rely on setting a policy to OLD.
+[0.361s] 
+[0.361s] [0m
+[0.361s] [0mCMake Deprecation Warning at CMakeLists.txt:64 (cmake_policy):
+[0.361s]   The OLD behavior for policy CMP0043 will be removed from a future version
+[0.361s]   of CMake.
+[0.361s] 
+[0.361s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.361s]   policies are deprecated and that a policy should be set to OLD only under
+[0.361s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.361s]   behavior and not rely on setting a policy to OLD.
+[0.361s] 
+[0.362s] [0m
+[0.402s] -- Found SWIG: /home/olee/.local/bin/swig4.0 (found version "4.4.0")  
+[0.420s] -- Found PythonInterp: /usr/bin/python3.10 (found version "3.10.12") 
+[0.427s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[0.585s] -- Found GTest: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.11.0")  
+[0.585s] [0mCMake Deprecation Warning at core/CMakeLists.txt:1 (cmake_minimum_required):
+[0.585s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.585s]   CMake.
+[0.585s] 
+[0.585s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.585s]   CMake that the project does not need compatibility with older versions.
+[0.585s] 
+[0.586s] [0m
+[0.589s] [0mCMake Deprecation Warning at examples/CMakeLists.txt:2 (cmake_minimum_required):
+[0.589s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.589s]   CMake.
+[0.589s] 
+[0.589s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.589s]   CMake that the project does not need compatibility with older versions.
+[0.589s] 
+[0.589s] [0m
+[0.591s] -- build python API....
+[0.592s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/UseSWIG.cmake:775 (message):
+[0.592s]   Policy CMP0078 is not set: UseSWIG generates standard target names.  Run
+[0.592s]   "cmake --help-policy CMP0078" for policy details.  Use the cmake_policy
+[0.592s]   command to set the policy and suppress this warning.
+[0.592s] 
+[0.592s] Call Stack (most recent call first):
+[0.592s]   python/CMakeLists.txt:35 (swig_add_library)
+[0.592s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.593s] [0m
+[0.593s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/UseSWIG.cmake:617 (message):
+[0.593s]   Policy CMP0086 is not set: UseSWIG honors SWIG_MODULE_NAME via -module
+[0.593s]   flag.  Run "cmake --help-policy CMP0086" for policy details.  Use the
+[0.593s]   cmake_policy command to set the policy and suppress this warning.
+[0.593s] 
+[0.593s] Call Stack (most recent call first):
+[0.593s]   /usr/share/cmake-3.22/Modules/UseSWIG.cmake:888 (SWIG_ADD_SOURCE_TO_MODULE)
+[0.593s]   python/CMakeLists.txt:35 (swig_add_library)
+[0.593s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.593s] [0m
+[0.665s] [0mCMake Deprecation Warning at cmake/install_package.cmake:101 (cmake_policy):
+[0.665s]   The OLD behavior for policy CMP0026 will be removed from a future version
+[0.665s]   of CMake.
+[0.665s] 
+[0.665s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.665s]   policies are deprecated and that a policy should be set to OLD only under
+[0.665s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.665s]   behavior and not rely on setting a policy to OLD.
+[0.665s] Call Stack (most recent call first):
+[0.665s]   CMakeLists.txt:176 (install_package)
+[0.665s] 
+[0.665s] [0m
+[0.666s] [33mCMake Warning (dev) at cmake/install_package.cmake:191 (install):
+[0.666s]   Policy CMP0062 is not set: Disallow install() of export() result.  Run
+[0.666s]   "cmake --help-policy CMP0062" for policy details.  Use the cmake_policy
+[0.666s]   command to set the policy and suppress this warning.
+[0.666s] 
+[0.666s]   The file
+[0.666s] 
+[0.666s]     /home/olee/olee_ros2_ws/build/ydlidar_sdk/ydlidar_sdkTargets.cmake
+[0.666s] 
+[0.666s]   was generated by the export() command.  It should not be installed with the
+[0.666s]   install() command.  Use the install(EXPORT) mechanism instead.  See the
+[0.666s]   cmake-packages(7) manual for more.
+[0.666s] 
+[0.666s] Call Stack (most recent call first):
+[0.666s]   CMakeLists.txt:176 (install_package)
+[0.666s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.666s] [0m
+[0.670s] -- 
+[0.670s] -- +===========================================================================+
+[0.670s] -- |         Resulting configuration for                             |
+[0.670s] -- +===========================================================================+
+[0.670s] --  _________________________ PLATFORM _____________________________
+[0.670s] --  Host                        : Linux6.8.0-87-genericx86_64
+[0.670s] --  Is the system big endian?   :  No 
+[0.670s] --  Word size (32/64 bit)       : 64
+[0.670s] --  CMake version               : 3.22.1
+[0.670s] --  CMake generator             : Unix Makefiles
+[0.670s] --  CMake build tool            : /usr/bin/gmake
+[0.670s] --  Compiler                    : GNU
+[0.670s] --  Configuration               : 
+[0.670s] -- 
+[0.670s] --  __________________________ OPTIONS _____________________________
+[0.670s] --  Build YDLidar-SDK as a shared library?　　 :  No 
+[0.671s] --  Build Examples?　　　　　　　　　　　　　　 : Yes 
+[0.671s] --  Build C Sharp API?　　　　　　　　　　　　 :  No 
+[0.671s] --  Build TEST?  			　　　 :  No 
+[0.671s] -- 
+[0.671s] --  _________________________ INSTALL _____________________
+[0.671s] --  Install prefix                    : /home/olee/olee_ros2_ws/install/ydlidar_sdk
+[0.671s] -- 
+[0.671s] --  _______________________ WRAPPERS/BINDINGS ______________________
+[0.671s] --  Python bindings (pyydlidar)   : Yes 
+[0.671s] --   - dep: Swig found?       : Yes [Version: 4.4.0]
+[0.671s] --   - dep: PythonLibs found?  : Yes [Version: 3.10.12]
+[0.671s] -- 
+[0.671s] -- Configuring done
+[0.687s] -- Generating done
+[0.692s] -- Build files have been written to: /home/olee/olee_ros2_ws/build/ydlidar_sdk
