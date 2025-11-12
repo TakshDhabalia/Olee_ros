@@ -1,0 +1,83 @@
+[0.006s] Invoking command in '/home/olee/olee_ros2_ws/src/build/tflidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake /home/olee/olee_ros2_ws/src/tflidar_ros-ros2 -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/tflidar_ros
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.117s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.205s] -- Detecting C compiler ABI info - done
+[0.216s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.217s] -- Detecting C compile features
+[0.217s] -- Detecting C compile features - done
+[0.221s] -- Detecting CXX compiler ABI info
+[0.307s] -- Detecting CXX compiler ABI info - done
+[0.316s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.316s] -- Detecting CXX compile features
+[0.316s] -- Detecting CXX compile features - done
+[0.318s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.566s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.615s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.633s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.636s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.640s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.647s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.688s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.707s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.709s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.781s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.809s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.836s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.841s] -- Looking for pthread.h
+[0.905s] -- Looking for pthread.h - found
+[0.905s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.984s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.985s] -- Found Threads: TRUE  
+[1.014s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.059s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.060s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.060s] -- Configured cppcheck include dirs: /home/olee/olee_ros2_ws/src/tflidar_ros-ros2/include
+[1.060s] -- Configured cppcheck exclude dirs and/or files: 
+[1.060s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.061s] -- Configured cpplint exclude dirs and/or files: 
+[1.061s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.061s] -- Added test 'lint_cmake' to check CMake code style
+[1.061s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.062s] -- Added test 'uncrustify' to check C / C++ code style
+[1.062s] -- Configured uncrustify additional arguments: 
+[1.062s] -- Added test 'xmllint' to check XML markup files
+[1.062s] -- Configuring done
+[1.067s] -- Generating done
+[1.069s] -- Build files have been written to: /home/olee/olee_ros2_ws/src/build/tflidar_ros
+[1.074s] Invoked command in '/home/olee/olee_ros2_ws/src/build/tflidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake /home/olee/olee_ros2_ws/src/tflidar_ros-ros2 -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/tflidar_ros
+[1.076s] Invoking command in '/home/olee/olee_ros2_ws/src/build/tflidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --build /home/olee/olee_ros2_ws/src/build/tflidar_ros -- -j12 -l12
+[1.128s] [ 33%] [32mBuilding CXX object CMakeFiles/tflidar_ros_node.dir/src/TFlidar_ros_node.cpp.o[0m
+[1.130s] [ 66%] [32mBuilding CXX object CMakeFiles/tflidar_ros_node.dir/src/TFlidar.cpp.o[0m
+[3.515s] [100%] [32m[1mLinking CXX executable tflidar_ros_node[0m
+[3.629s] [100%] Built target tflidar_ros_node
+[3.646s] Invoked command in '/home/olee/olee_ros2_ws/src/build/tflidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --build /home/olee/olee_ros2_ws/src/build/tflidar_ros -- -j12 -l12
+[3.659s] Invoking command in '/home/olee/olee_ros2_ws/src/build/tflidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --install /home/olee/olee_ros2_ws/src/build/tflidar_ros
+[3.667s] -- Install configuration: ""
+[3.667s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/lib/tflidar_ros/tflidar_ros_node
+[3.668s] -- Set runtime path of "/home/olee/olee_ros2_ws/src/install/tflidar_ros/lib/tflidar_ros/tflidar_ros_node" to ""
+[3.668s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/include
+[3.668s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/include/TFlidar_ros.h
+[3.668s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/include/TFlidar.h
+[3.668s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/launch
+[3.669s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/launch/tflidar.launch.py
+[3.669s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/src
+[3.669s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/src/TFlidar.cpp
+[3.669s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/src/TFlidar_ros_node.cpp
+[3.669s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/ament_index/resource_index/package_run_dependencies/tflidar_ros
+[3.669s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/ament_index/resource_index/parent_prefix_path/tflidar_ros
+[3.669s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/environment/ament_prefix_path.sh
+[3.669s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/environment/ament_prefix_path.dsv
+[3.669s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/environment/path.sh
+[3.669s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/environment/path.dsv
+[3.669s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/local_setup.bash
+[3.669s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/local_setup.sh
+[3.669s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/local_setup.zsh
+[3.669s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/local_setup.dsv
+[3.670s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/package.dsv
+[3.670s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/ament_index/resource_index/packages/tflidar_ros
+[3.670s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/cmake/tflidar_rosConfig.cmake
+[3.670s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/cmake/tflidar_rosConfig-version.cmake
+[3.670s] -- Installing: /home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/package.xml
+[3.672s] Invoked command in '/home/olee/olee_ros2_ws/src/build/tflidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --install /home/olee/olee_ros2_ws/src/build/tflidar_ros
