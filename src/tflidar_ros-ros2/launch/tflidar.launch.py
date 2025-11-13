@@ -7,7 +7,7 @@ from launch.substitutions import LaunchConfiguration
 def generate_launch_description():
 
     model = LaunchConfiguration('model', default="TF03")
-    serial_port = LaunchConfiguration('serial_port', default="/dev/ttyUSB0")
+    serial_port = LaunchConfiguration('serial_port', default="/dev/ttyUSB1")
     baud_rate = LaunchConfiguration('baud_rate', default=115200)
     topic_name = LaunchConfiguration('topic_name', default="range_feedback")
     frame_link = LaunchConfiguration('frame_link', default="TFlidar")

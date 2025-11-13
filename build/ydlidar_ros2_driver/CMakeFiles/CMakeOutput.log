@@ -447,3 +447,51 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/olee/olee_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3ed4a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3ed4a.dir/build.make CMakeFiles/cmTC_3ed4a.dir/build
+gmake[1]: Entering directory '/home/olee/olee_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ed4a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3ed4a.dir/CheckIncludeFile.c.o -c /home/olee/olee_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3ed4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ed4a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3ed4a.dir/CheckIncludeFile.c.o -o cmTC_3ed4a 
+gmake[1]: Leaving directory '/home/olee/olee_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/olee/olee_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_96a82/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_96a82.dir/build.make CMakeFiles/cmTC_96a82.dir/build
+gmake[1]: Entering directory '/home/olee/olee_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96a82.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_96a82.dir/src.c.o -c /home/olee/olee_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_96a82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96a82.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_96a82.dir/src.c.o -o cmTC_96a82 
+gmake[1]: Leaving directory '/home/olee/olee_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

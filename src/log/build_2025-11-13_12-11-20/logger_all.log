@@ -1,0 +1,529 @@
+[0.081s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.081s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78d628e82560>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78d628e81fc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78d628e81fc0>>)
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.113s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/olee/olee_ros2_ws/src'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extensions ['colcon_meta']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extension 'colcon_meta'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extensions ['ros']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extension 'ros'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extensions ['cmake', 'python']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extension 'python'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'YDLidar-SDK-master' with type 'cmake' and name 'ydlidar_sdk'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(master_olee_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(master_olee_controller) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(master_olee_controller) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(master_olee_controller) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(master_olee_controller) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(master_olee_controller) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(master_olee_controller) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(master_olee_controller) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(master_olee_controller) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'master_olee_controller' with type 'ros.ament_python' and name 'master_olee_controller'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry-ros2) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry-ros2) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry-ros2) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry-ros2) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry-ros2) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry-ros2) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry-ros2) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry-ros2) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'rf2o_laser_odometry-ros2' with type 'ros.ament_cmake' and name 'rf2o_laser_odometry'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_ortho_projector) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_ortho_projector) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_ortho_projector) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_ortho_projector) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_ortho_projector) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_ortho_projector) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_ortho_projector) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_ortho_projector) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_ortho_projector) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'scan_tools-ros2/laser_ortho_projector' with type 'ros.catkin' and name 'laser_ortho_projector'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_matcher) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_matcher) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_matcher) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_matcher) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_matcher) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_matcher) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_matcher) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_matcher) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_matcher) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'scan_tools-ros2/laser_scan_matcher' with type 'ros.catkin' and name 'laser_scan_matcher'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_sparsifier) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_sparsifier) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_sparsifier) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_sparsifier) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_sparsifier) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_sparsifier) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_sparsifier) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_sparsifier) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_sparsifier) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'scan_tools-ros2/laser_scan_sparsifier' with type 'ros.catkin' and name 'laser_scan_sparsifier'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_splitter) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_splitter) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_splitter) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_splitter) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_splitter) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_splitter) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_splitter) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_splitter) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/laser_scan_splitter) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'scan_tools-ros2/laser_scan_splitter' with type 'ros.catkin' and name 'laser_scan_splitter'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/ncd_parser) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/ncd_parser) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/ncd_parser) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/ncd_parser) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/ncd_parser) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/ncd_parser) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/ncd_parser) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/ncd_parser) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/ncd_parser) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'scan_tools-ros2/ncd_parser' with type 'ros.catkin' and name 'ncd_parser'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/polar_scan_matcher) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/polar_scan_matcher) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/polar_scan_matcher) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/polar_scan_matcher) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/polar_scan_matcher) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/polar_scan_matcher) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/polar_scan_matcher) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/polar_scan_matcher) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/polar_scan_matcher) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'scan_tools-ros2/polar_scan_matcher' with type 'ros.catkin' and name 'polar_scan_matcher'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_to_cloud_converter) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_to_cloud_converter) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_to_cloud_converter) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_to_cloud_converter) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_to_cloud_converter) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_to_cloud_converter) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_to_cloud_converter) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_to_cloud_converter) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_to_cloud_converter) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'scan_tools-ros2/scan_to_cloud_converter' with type 'ros.catkin' and name 'scan_to_cloud_converter'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_tools) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_tools) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_tools) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_tools) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_tools) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_tools) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_tools) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(scan_tools-ros2/scan_tools) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'scan_tools-ros2/scan_tools' with type 'ros.catkin' and name 'scan_tools'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox-humble) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox-humble) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox-humble) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox-humble) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox-humble) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox-humble) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox-humble) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox-humble) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(slam_toolbox-humble) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'slam_toolbox-humble' with type 'ros.ament_cmake' and name 'slam_toolbox'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(tflidar_ros-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(tflidar_ros-ros2) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(tflidar_ros-ros2) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(tflidar_ros-ros2) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(tflidar_ros-ros2) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(tflidar_ros-ros2) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(tflidar_ros-ros2) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(tflidar_ros-ros2) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(tflidar_ros-ros2) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'tflidar_ros-ros2' with type 'ros.ament_cmake' and name 'tflidar_ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-humble) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-humble) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-humble) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-humble) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-humble) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-humble) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-humble) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-humble) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-humble) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'ydlidar_ros2_driver-humble' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.209s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/olee/olee_ros2_ws/install
+[0.209s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/olee/ros2_ws/install
+[0.209s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_ortho_projector' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_ortho_projector' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_ortho_projector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_ortho_projector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_ortho_projector' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_ortho_projector' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_ortho_projector' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_ortho_projector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_ortho_projector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'laser_ortho_projector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olee/olee_ros2_ws/src/build/laser_ortho_projector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olee/olee_ros2_ws/src/install/laser_ortho_projector', 'merge_install': False, 'path': '/home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_ortho_projector', 'symlink_install': True, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_matcher' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_matcher' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_matcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_matcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_matcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_matcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_matcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_matcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_matcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'laser_scan_matcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olee/olee_ros2_ws/src/build/laser_scan_matcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olee/olee_ros2_ws/src/install/laser_scan_matcher', 'merge_install': False, 'path': '/home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_matcher', 'symlink_install': True, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_sparsifier' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_sparsifier' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_sparsifier' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_sparsifier' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_sparsifier' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_sparsifier' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_sparsifier' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_sparsifier' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_sparsifier' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'laser_scan_sparsifier' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olee/olee_ros2_ws/src/build/laser_scan_sparsifier', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olee/olee_ros2_ws/src/install/laser_scan_sparsifier', 'merge_install': False, 'path': '/home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_sparsifier', 'symlink_install': True, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_splitter' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_splitter' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_splitter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_splitter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_splitter' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_splitter' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_splitter' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_splitter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'laser_scan_splitter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'laser_scan_splitter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olee/olee_ros2_ws/src/build/laser_scan_splitter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olee/olee_ros2_ws/src/install/laser_scan_splitter', 'merge_install': False, 'path': '/home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_splitter', 'symlink_install': True, 'test_result_base': None}
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'master_olee_controller' build argument 'cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'master_olee_controller' build argument 'cmake_target' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'master_olee_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'master_olee_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'master_olee_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'master_olee_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'master_olee_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'master_olee_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'master_olee_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'master_olee_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olee/olee_ros2_ws/src/build/master_olee_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olee/olee_ros2_ws/src/install/master_olee_controller', 'merge_install': False, 'path': '/home/olee/olee_ros2_ws/src/master_olee_controller', 'symlink_install': True, 'test_result_base': None}
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'ncd_parser' build argument 'cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'ncd_parser' build argument 'cmake_target' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'ncd_parser' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'ncd_parser' build argument 'cmake_clean_cache' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'ncd_parser' build argument 'cmake_clean_first' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'ncd_parser' build argument 'cmake_force_configure' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'ncd_parser' build argument 'ament_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'ncd_parser' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'ncd_parser' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'ncd_parser' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olee/olee_ros2_ws/src/build/ncd_parser', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olee/olee_ros2_ws/src/install/ncd_parser', 'merge_install': False, 'path': '/home/olee/olee_ros2_ws/src/scan_tools-ros2/ncd_parser', 'symlink_install': True, 'test_result_base': None}
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'polar_scan_matcher' build argument 'cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'polar_scan_matcher' build argument 'cmake_target' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'polar_scan_matcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'polar_scan_matcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'polar_scan_matcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'polar_scan_matcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'polar_scan_matcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'polar_scan_matcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'polar_scan_matcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'polar_scan_matcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olee/olee_ros2_ws/src/build/polar_scan_matcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olee/olee_ros2_ws/src/install/polar_scan_matcher', 'merge_install': False, 'path': '/home/olee/olee_ros2_ws/src/scan_tools-ros2/polar_scan_matcher', 'symlink_install': True, 'test_result_base': None}
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'rf2o_laser_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olee/olee_ros2_ws/src/build/rf2o_laser_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry', 'merge_install': False, 'path': '/home/olee/olee_ros2_ws/src/rf2o_laser_odometry-ros2', 'symlink_install': True, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'scan_to_cloud_converter' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'scan_to_cloud_converter' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'scan_to_cloud_converter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'scan_to_cloud_converter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'scan_to_cloud_converter' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'scan_to_cloud_converter' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'scan_to_cloud_converter' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'scan_to_cloud_converter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'scan_to_cloud_converter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'scan_to_cloud_converter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olee/olee_ros2_ws/src/build/scan_to_cloud_converter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olee/olee_ros2_ws/src/install/scan_to_cloud_converter', 'merge_install': False, 'path': '/home/olee/olee_ros2_ws/src/scan_tools-ros2/scan_to_cloud_converter', 'symlink_install': True, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'slam_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olee/olee_ros2_ws/src/build/slam_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olee/olee_ros2_ws/src/install/slam_toolbox', 'merge_install': False, 'path': '/home/olee/olee_ros2_ws/src/slam_toolbox-humble', 'symlink_install': True, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'tflidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'tflidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'tflidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'tflidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'tflidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'tflidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'tflidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'tflidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'tflidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'tflidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olee/olee_ros2_ws/src/build/tflidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olee/olee_ros2_ws/src/install/tflidar_ros', 'merge_install': False, 'path': '/home/olee/olee_ros2_ws/src/tflidar_ros-ros2', 'symlink_install': True, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olee/olee_ros2_ws/src/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olee/olee_ros2_ws/src/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/olee/olee_ros2_ws/src/ydlidar_ros2_driver-humble', 'symlink_install': True, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olee/olee_ros2_ws/src/build/ydlidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olee/olee_ros2_ws/src/install/ydlidar_sdk', 'merge_install': False, 'path': '/home/olee/olee_ros2_ws/src/YDLidar-SDK-master', 'symlink_install': True, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scan_tools' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scan_tools' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scan_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scan_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scan_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scan_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scan_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scan_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scan_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'scan_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olee/olee_ros2_ws/src/build/scan_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olee/olee_ros2_ws/src/install/scan_tools', 'merge_install': False, 'path': '/home/olee/olee_ros2_ws/src/scan_tools-ros2/scan_tools', 'symlink_install': True, 'test_result_base': None}
+[0.233s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.234s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.234s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_ortho_projector' with build type 'catkin'
+[0.234s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_ortho_projector'
+[0.238s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.240s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_matcher' with build type 'catkin'
+[0.240s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_matcher'
+[0.240s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.240s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.242s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_sparsifier' with build type 'catkin'
+[0.242s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_sparsifier'
+[0.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.244s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_splitter' with build type 'catkin'
+[0.245s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_splitter'
+[0.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.247s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/olee/olee_ros2_ws/src/scan_tools-ros2/ncd_parser' with build type 'catkin'
+[0.247s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olee/olee_ros2_ws/src/scan_tools-ros2/ncd_parser'
+[0.247s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.249s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/olee/olee_ros2_ws/src/scan_tools-ros2/polar_scan_matcher' with build type 'catkin'
+[0.249s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olee/olee_ros2_ws/src/scan_tools-ros2/polar_scan_matcher'
+[0.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.252s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/olee/olee_ros2_ws/src/scan_tools-ros2/scan_to_cloud_converter' with build type 'catkin'
+[0.252s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olee/olee_ros2_ws/src/scan_tools-ros2/scan_to_cloud_converter'
+[0.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.254s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/olee/olee_ros2_ws/src/master_olee_controller' with build type 'ament_python'
+[0.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('master_olee_controller', 'ament_prefix_path')
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olee/olee_ros2_ws/src/install/master_olee_controller/share/master_olee_controller/hook/ament_prefix_path.ps1'
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olee/olee_ros2_ws/src/install/master_olee_controller/share/master_olee_controller/hook/ament_prefix_path.dsv'
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olee/olee_ros2_ws/src/install/master_olee_controller/share/master_olee_controller/hook/ament_prefix_path.sh'
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/olee/olee_ros2_ws/src/rf2o_laser_odometry-ros2' with build type 'ament_cmake'
+[0.260s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olee/olee_ros2_ws/src/rf2o_laser_odometry-ros2'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.264s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/olee/olee_ros2_ws/src/slam_toolbox-humble' with build type 'ament_cmake'
+[0.264s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olee/olee_ros2_ws/src/slam_toolbox-humble'
+[0.264s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.264s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.267s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/olee/olee_ros2_ws/src/tflidar_ros-ros2' with build type 'ament_cmake'
+[0.267s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olee/olee_ros2_ws/src/tflidar_ros-ros2'
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.269s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/olee/olee_ros2_ws/src/ydlidar_ros2_driver-humble' with build type 'ament_cmake'
+[0.269s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olee/olee_ros2_ws/src/ydlidar_ros2_driver-humble'
+[0.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olee/olee_ros2_ws/src/build/laser_ortho_projector': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_ortho_projector -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/laser_ortho_projector
+[0.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olee/olee_ros2_ws/src/build/laser_scan_matcher': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_matcher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/laser_scan_matcher
+[0.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olee/olee_ros2_ws/src/build/laser_scan_sparsifier': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_sparsifier -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/laser_scan_sparsifier
+[0.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olee/olee_ros2_ws/src/build/laser_scan_splitter': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_splitter -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/laser_scan_splitter
+[0.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olee/olee_ros2_ws/src/build/ncd_parser': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/ncd_parser -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/ncd_parser
+[0.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olee/olee_ros2_ws/src/build/polar_scan_matcher': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/polar_scan_matcher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/polar_scan_matcher
+[0.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olee/olee_ros2_ws/src/build/scan_to_cloud_converter': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/scan_to_cloud_converter -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/scan_to_cloud_converter
+[0.465s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/olee/olee_ros2_ws/src/master_olee_controller'
+[0.466s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.466s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olee/olee_ros2_ws/src/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --build /home/olee/olee_ros2_ws/src/build/rf2o_laser_odometry -- -j12 -l12
+[0.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olee/olee_ros2_ws/src/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --build /home/olee/olee_ros2_ws/src/build/slam_toolbox -- -j12 -l12
+[0.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olee/olee_ros2_ws/src/build/tflidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --build /home/olee/olee_ros2_ws/src/build/tflidar_ros -- -j12 -l12
+[0.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olee/olee_ros2_ws/src/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --build /home/olee/olee_ros2_ws/src/build/ydlidar_ros2_driver -- -j12 -l12
+[0.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olee/olee_ros2_ws/src/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --build /home/olee/olee_ros2_ws/src/build/rf2o_laser_odometry -- -j12 -l12
+[0.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olee/olee_ros2_ws/src/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --install /home/olee/olee_ros2_ws/src/build/rf2o_laser_odometry
+[0.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olee/olee_ros2_ws/src/build/laser_ortho_projector' returned '1': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_ortho_projector -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/laser_ortho_projector
+[0.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olee/olee_ros2_ws/src/build/tflidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --build /home/olee/olee_ros2_ws/src/build/tflidar_ros -- -j12 -l12
+[0.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[0.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olee/olee_ros2_ws/src/build/tflidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --install /home/olee/olee_ros2_ws/src/build/tflidar_ros
+[0.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olee/olee_ros2_ws/src/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --install /home/olee/olee_ros2_ws/src/build/rf2o_laser_odometry
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry' for CMake module files
+[0.729s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry' for CMake config files
+[0.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[0.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[0.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/lib'
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/bin'
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[0.734s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/bin'
+[0.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[0.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[0.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[0.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry' for CMake module files
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry' for CMake config files
+[0.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/lib'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/bin'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/bin'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[0.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olee/olee_ros2_ws/src/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[0.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olee/olee_ros2_ws/src/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --build /home/olee/olee_ros2_ws/src/build/ydlidar_ros2_driver -- -j12 -l12
+[0.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olee/olee_ros2_ws/src/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --install /home/olee/olee_ros2_ws/src/build/ydlidar_ros2_driver
+[0.767s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olee/olee_ros2_ws/src/YDLidar-SDK-master'
+[0.768s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.768s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olee/olee_ros2_ws/src/build/laser_scan_matcher' returned '1': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_matcher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/laser_scan_matcher
+[0.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olee/olee_ros2_ws/src/build/scan_to_cloud_converter' returned '1': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/scan_to_cloud_converter -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/scan_to_cloud_converter
+[0.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olee/olee_ros2_ws/src/build/polar_scan_matcher' returned '1': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/polar_scan_matcher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/polar_scan_matcher
+[0.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olee/olee_ros2_ws/src/build/ncd_parser' returned '1': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/ncd_parser -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/ncd_parser
+[0.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olee/olee_ros2_ws/src/build/laser_scan_sparsifier' returned '1': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_sparsifier -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/laser_scan_sparsifier
+[0.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olee/olee_ros2_ws/src/build/laser_scan_splitter' returned '1': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_splitter -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/laser_scan_splitter
+[0.787s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_ortho_projector)
+[0.787s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/laser_ortho_projector' for CMake module files
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/laser_ortho_projector' for CMake config files
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/laser_ortho_projector/bin'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/laser_ortho_projector/lib/pkgconfig/laser_ortho_projector.pc'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/laser_ortho_projector/lib/python3.10/site-packages'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/laser_ortho_projector/bin'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/laser_ortho_projector/share/laser_ortho_projector/package.ps1'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olee/olee_ros2_ws/src/install/laser_ortho_projector/share/laser_ortho_projector/package.dsv'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/laser_ortho_projector/share/laser_ortho_projector/package.sh'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/laser_ortho_projector/share/laser_ortho_projector/package.bash'
+[0.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/laser_ortho_projector/share/laser_ortho_projector/package.zsh'
+[0.791s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olee/olee_ros2_ws/src/install/laser_ortho_projector/share/colcon-core/packages/laser_ortho_projector)
+[0.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tflidar_ros)
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/tflidar_ros' for CMake module files
+[0.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olee/olee_ros2_ws/src/build/tflidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --install /home/olee/olee_ros2_ws/src/build/tflidar_ros
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/tflidar_ros' for CMake config files
+[0.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('tflidar_ros', 'cmake_prefix_path')
+[0.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/hook/cmake_prefix_path.ps1'
+[0.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/hook/cmake_prefix_path.dsv'
+[0.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/hook/cmake_prefix_path.sh'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/tflidar_ros/lib'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/tflidar_ros/bin'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/tflidar_ros/lib/pkgconfig/tflidar_ros.pc'
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/tflidar_ros/lib/python3.10/site-packages'
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/tflidar_ros/bin'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/package.ps1'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/package.dsv'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/package.sh'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/package.bash'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/package.zsh'
+[0.799s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/colcon-core/packages/tflidar_ros)
+[0.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tflidar_ros)
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/tflidar_ros' for CMake module files
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/tflidar_ros' for CMake config files
+[0.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('tflidar_ros', 'cmake_prefix_path')
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/hook/cmake_prefix_path.ps1'
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/hook/cmake_prefix_path.dsv'
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/hook/cmake_prefix_path.sh'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/tflidar_ros/lib'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/tflidar_ros/bin'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/tflidar_ros/lib/pkgconfig/tflidar_ros.pc'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/tflidar_ros/lib/python3.10/site-packages'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/olee/olee_ros2_ws/src/install/tflidar_ros/bin'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/package.ps1'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/package.dsv'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/package.sh'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/package.bash'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/tflidar_ros/package.zsh'
+[0.802s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olee/olee_ros2_ws/src/install/tflidar_ros/share/colcon-core/packages/tflidar_ros)
+[1.055s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.055s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.055s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.055s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.060s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.060s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.060s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.080s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.081s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olee/olee_ros2_ws/src/install/local_setup.ps1'
+[1.082s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/olee/olee_ros2_ws/src/install/_local_setup_util_ps1.py'
+[1.083s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olee/olee_ros2_ws/src/install/setup.ps1'
+[1.084s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olee/olee_ros2_ws/src/install/local_setup.sh'
+[1.085s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/olee/olee_ros2_ws/src/install/_local_setup_util_sh.py'
+[1.085s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olee/olee_ros2_ws/src/install/setup.sh'
+[1.086s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olee/olee_ros2_ws/src/install/local_setup.bash'
+[1.087s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olee/olee_ros2_ws/src/install/setup.bash'
+[1.088s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olee/olee_ros2_ws/src/install/local_setup.zsh'
+[1.089s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olee/olee_ros2_ws/src/install/setup.zsh'

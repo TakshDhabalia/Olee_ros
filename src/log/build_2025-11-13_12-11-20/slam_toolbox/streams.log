@@ -1,0 +1,38 @@
+[0.212s] Invoking command in '/home/olee/olee_ros2_ws/src/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --build /home/olee/olee_ros2_ws/src/build/slam_toolbox -- -j12 -l12
+[0.355s] [  1%] Built target slam_toolbox__cpp
+[0.355s] [ 10%] Built target slam_toolbox__rosidl_generator_c
+[0.355s] [ 10%] Built target ament_cmake_python_symlink_slam_toolbox
+[0.355s] [ 18%] Built target slam_toolbox__rosidl_typesupport_cpp
+[0.355s] [ 26%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[0.355s] [ 35%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[0.355s] [ 43%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[0.356s] [ 51%] Built target slam_toolbox__rosidl_typesupport_c
+[0.356s] [ 60%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[0.356s] [ 62%] Built target kartoSlamToolbox
+[0.375s] [ 62%] Built target slam_toolbox
+[0.387s] [ 64%] Built target SlamToolboxPlugin
+[0.403s] [ 66%] Built target ceres_solver_plugin
+[0.411s] [ 66%] Built target slam_toolbox__py
+[0.420s] [ 71%] Built target toolbox_common
+[0.455s] [ 79%] Built target slam_toolbox__rosidl_generator_py
+[0.471s] [ 83%] Built target merge_maps_kinematic
+[0.471s] [ 83%] Built target async_slam_toolbox
+[0.471s] [ 84%] Built target localization_slam_toolbox
+[0.471s] [ 85%] Built target lifelong_slam_toolbox
+[0.475s] [ 87%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[0.475s] [ 89%] Built target sync_slam_toolbox
+[0.477s] [ 91%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[0.478s] [ 92%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[0.502s] [ 94%] Built target localization_slam_toolbox_node
+[0.504s] [ 95%] Built target map_and_localization_slam_toolbox
+[0.505s] [ 97%] Built target lifelong_slam_toolbox_node
+[0.507s] [ 98%] Built target async_slam_toolbox_node
+[0.508s] [ 99%] Built target sync_slam_toolbox_node
+[0.533s] [100%] Built target map_and_localization_slam_toolbox_node
+[0.546s] running egg_info
+[0.559s] writing slam_toolbox.egg-info/PKG-INFO
+[0.559s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[0.559s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[0.584s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[0.585s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[0.605s] [100%] Built target ament_cmake_python_build_slam_toolbox_egg

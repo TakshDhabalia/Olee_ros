@@ -1,0 +1,41 @@
+[0.034s] Invoking command in '/home/olee/olee_ros2_ws/src/build/polar_scan_matcher': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/polar_scan_matcher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/polar_scan_matcher
+[0.242s] -- The C compiler identification is GNU 11.4.0
+[0.242s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.243s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.243s]   CMake.
+[0.243s] 
+[0.243s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.243s]   CMake that the project does not need compatibility with older versions.
+[0.243s] 
+[0.243s] [0m
+[0.244s] -- The CXX compiler identification is GNU 11.4.0
+[0.251s] -- Detecting C compiler ABI info
+[0.325s] -- Detecting C compiler ABI info - done
+[0.343s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.343s] -- Detecting C compile features
+[0.343s] -- Detecting C compile features - done
+[0.352s] -- Detecting CXX compiler ABI info
+[0.434s] -- Detecting CXX compiler ABI info - done
+[0.446s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.446s] -- Detecting CXX compile features
+[0.446s] -- Detecting CXX compile features - done
+[0.460s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.460s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.460s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.460s]   CMake did not find one.
+[0.460s] 
+[0.460s]   Could not find a package configuration file provided by "catkin" with any
+[0.460s]   of the following names:
+[0.460s] 
+[0.460s]     catkinConfig.cmake
+[0.460s]     catkin-config.cmake
+[0.460s] 
+[0.460s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.460s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.460s]   provides a separate development package or SDK, be sure it has been
+[0.460s]   installed.
+[0.460s] 
+[0.460s] [0m
+[0.461s] -- Configuring incomplete, errors occurred!
+[0.461s] See also "/home/olee/olee_ros2_ws/src/build/polar_scan_matcher/CMakeFiles/CMakeOutput.log".
+[0.533s] Invoked command in '/home/olee/olee_ros2_ws/src/build/polar_scan_matcher' returned '1': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/polar_scan_matcher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/polar_scan_matcher

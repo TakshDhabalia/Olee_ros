@@ -1,0 +1,15 @@
+{
+  "package_name": "slam_toolbox",
+  "non_idl_tuples": [
+    "/home/olee/olee_ros2_ws/src/slam_toolbox-humble:srv/Pause.srv",
+    "/home/olee/olee_ros2_ws/src/slam_toolbox-humble:srv/ClearQueue.srv",
+    "/home/olee/olee_ros2_ws/src/slam_toolbox-humble:srv/ToggleInteractive.srv",
+    "/home/olee/olee_ros2_ws/src/slam_toolbox-humble:srv/Clear.srv",
+    "/home/olee/olee_ros2_ws/src/slam_toolbox-humble:srv/SaveMap.srv",
+    "/home/olee/olee_ros2_ws/src/slam_toolbox-humble:srv/LoopClosure.srv",
+    "/home/olee/olee_ros2_ws/src/slam_toolbox-humble:srv/MergeMaps.srv",
+    "/home/olee/olee_ros2_ws/src/slam_toolbox-humble:srv/AddSubmap.srv",
+    "/home/olee/olee_ros2_ws/src/slam_toolbox-humble:srv/DeserializePoseGraph.srv",
+    "/home/olee/olee_ros2_ws/src/slam_toolbox-humble:srv/SerializePoseGraph.srv"
+  ]
+}

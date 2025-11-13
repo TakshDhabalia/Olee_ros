@@ -4,3 +4,6 @@ source;share/master_olee_controller/hook/pythonpath.sh
 source;share/master_olee_controller/hook/ament_prefix_path.ps1
 source;share/master_olee_controller/hook/ament_prefix_path.dsv
 source;share/master_olee_controller/hook/ament_prefix_path.sh
+source;../../build/master_olee_controller/share/master_olee_controller/hook/pythonpath_develop.ps1
+source;../../build/master_olee_controller/share/master_olee_controller/hook/pythonpath_develop.dsv
+source;../../build/master_olee_controller/share/master_olee_controller/hook/pythonpath_develop.sh

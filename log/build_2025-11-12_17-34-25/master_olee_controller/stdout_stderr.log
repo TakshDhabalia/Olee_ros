@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing master_olee_controller.egg-info/PKG-INFO
+writing dependency_links to master_olee_controller.egg-info/dependency_links.txt
+writing requirements to master_olee_controller.egg-info/requires.txt
+writing top-level names to master_olee_controller.egg-info/top_level.txt
+reading manifest file 'master_olee_controller.egg-info/SOURCES.txt'
+writing manifest file 'master_olee_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/olee/olee_ros2_ws/install/master_olee_controller/lib/python3.10/site-packages/master-olee-controller.egg-link (link to .)
+
+Installed /home/olee/olee_ros2_ws/build/master_olee_controller
+running symlink_data
+symbolically linking /home/olee/olee_ros2_ws/build/master_olee_controller/resource/master_olee_controller -> /home/olee/olee_ros2_ws/install/master_olee_controller/share/ament_index/resource_index/packages
+symbolically linking /home/olee/olee_ros2_ws/build/master_olee_controller/package.xml -> /home/olee/olee_ros2_ws/install/master_olee_controller/share/master_olee_controller

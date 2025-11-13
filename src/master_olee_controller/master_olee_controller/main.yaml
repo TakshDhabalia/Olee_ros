@@ -1,0 +1,41 @@
+slam_toolbox:
+  ros__parameters:
+    use_sim_time: false
+    mode: mapping
+
+    # --- Frame setup (matches your working launch file) ---
+    map_frame: map
+    odom_frame: odom
+    base_frame: base_link
+    scan_topic: /scan
+
+    # --- Timing and buffering ---
+    transform_timeout: 0.5               # allow small TF delay
+    tf_buffer_duration: 5.0              # keep TFs longer
+    transform_publish_period: 0.05       # 20 Hz map->odom broadcast
+    map_update_interval: 1.0             # update map every 2s
+    throttle_scans: 1                    # process every scan
+
+    # --- Motion parameters ---
+    minimum_travel_distance: 0.05
+    minimum_travel_heading: 0.05
+
+    # --- SLAM algorithm configuration ---
+    resolution: 0.05
+    max_laser_range: 20.0
+    loop_closure_score_threshold: 0.15
+    minimum_time_between_loop_closures: 2.0
+    enable_interactive_mode: true
+
+    # --- Solver settings ---
+    solver_plugin: solver_plugins::CeresSolver
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
+    ceres_preconditioner: SCHUR
+    ceres_trust_strategy: LEVENBERG_MARQUARDT
+    ceres_dogleg_type: TRADITIONAL_DOGLEG
+    ceres_loss_function: None
+
+    # --- Map management ---
+    use_map_saver: true
+    always_send_full_map: true
+

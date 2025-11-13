@@ -1,0 +1,15 @@
+[0.844s] Invoking command in '/home/olee/olee_ros2_ws/src/build/master_olee_controller': PYTHONPATH=/home/olee/olee_ros2_ws/src/build/master_olee_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olee/olee_ros2_ws/src/install/master_olee_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/olee/olee_ros2_ws/src/build/master_olee_controller/build --no-deps symlink_data
+[1.052s] running develop
+[1.188s] running egg_info
+[1.196s] writing master_olee_controller.egg-info/PKG-INFO
+[1.196s] writing dependency_links to master_olee_controller.egg-info/dependency_links.txt
+[1.197s] writing requirements to master_olee_controller.egg-info/requires.txt
+[1.197s] writing top-level names to master_olee_controller.egg-info/top_level.txt
+[1.214s] reading manifest file 'master_olee_controller.egg-info/SOURCES.txt'
+[1.216s] writing manifest file 'master_olee_controller.egg-info/SOURCES.txt'
+[1.225s] running build_ext
+[1.226s] Creating /home/olee/olee_ros2_ws/src/install/master_olee_controller/lib/python3.10/site-packages/master-olee-controller.egg-link (link to .)
+[1.226s] 
+[1.226s] Installed /home/olee/olee_ros2_ws/src/build/master_olee_controller
+[1.226s] running symlink_data
+[1.251s] Invoked command in '/home/olee/olee_ros2_ws/src/build/master_olee_controller' returned '0': PYTHONPATH=/home/olee/olee_ros2_ws/src/build/master_olee_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olee/olee_ros2_ws/src/install/master_olee_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/olee/olee_ros2_ws/src/build/master_olee_controller/build --no-deps symlink_data

@@ -1,0 +1,41 @@
+[0.035s] Invoking command in '/home/olee/olee_ros2_ws/src/build/laser_scan_matcher': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_matcher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/laser_scan_matcher
+[0.244s] -- The C compiler identification is GNU 11.4.0
+[0.244s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.244s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.244s]   CMake.
+[0.245s] 
+[0.245s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.245s]   CMake that the project does not need compatibility with older versions.
+[0.245s] 
+[0.245s] [0m
+[0.253s] -- The CXX compiler identification is GNU 11.4.0
+[0.259s] -- Detecting C compiler ABI info
+[0.337s] -- Detecting C compiler ABI info - done
+[0.345s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.345s] -- Detecting C compile features
+[0.346s] -- Detecting C compile features - done
+[0.350s] -- Detecting CXX compiler ABI info
+[0.435s] -- Detecting CXX compiler ABI info - done
+[0.445s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.445s] -- Detecting CXX compile features
+[0.446s] -- Detecting CXX compile features - done
+[0.467s] -- Configuring incomplete, errors occurred!
+[0.467s] See also "/home/olee/olee_ros2_ws/src/build/laser_scan_matcher/CMakeFiles/CMakeOutput.log".
+[0.467s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[0.467s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.467s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.467s]   CMake did not find one.
+[0.467s] 
+[0.467s]   Could not find a package configuration file provided by "catkin" with any
+[0.467s]   of the following names:
+[0.467s] 
+[0.467s]     catkinConfig.cmake
+[0.467s]     catkin-config.cmake
+[0.467s] 
+[0.467s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.467s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.467s]   provides a separate development package or SDK, be sure it has been
+[0.467s]   installed.
+[0.467s] 
+[0.467s] [0m
+[0.540s] Invoked command in '/home/olee/olee_ros2_ws/src/build/laser_scan_matcher' returned '1': /usr/bin/cmake /home/olee/olee_ros2_ws/src/scan_tools-ros2/laser_scan_matcher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/laser_scan_matcher

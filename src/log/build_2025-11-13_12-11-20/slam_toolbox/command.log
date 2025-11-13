@@ -1,0 +1,1 @@
+Invoking command in '/home/olee/olee_ros2_ws/src/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --build /home/olee/olee_ros2_ws/src/build/slam_toolbox -- -j12 -l12
