@@ -1,0 +1,149 @@
+[0.009s] Invoking command in '/home/olee/olee_ros2_ws/src/build/cartographer_ros': AMENT_PREFIX_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs:/home/olee/olee_ros2_ws/install/ydlidar_sdk:/home/olee/olee_ros2_ws/install/ydlidar_ros2_driver:/home/olee/olee_ros2_ws/install/tflidar_ros:/home/olee/olee_ros2_ws/install/slam_toolbox:/home/olee/ros2_ws/install/ydlidar_sdk:/home/olee/ros2_ws/install/ydlidar_ros2_driver:/home/olee/ros2_ws/install/rf2o_laser_odometry:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/olee/olee_ros2_ws/src/cartographer_ros-ros2/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/cartographer_ros
+[0.022s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.108s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.117s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.131s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.132s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.135s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.147s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.160s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[0.161s] -- Found required Ceres dependency: glog
+[0.162s] -- Found required Ceres dependency: gflags
+[0.162s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[0.169s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams 
+[0.170s] -- Found cartographer_ros_msgs: 2.0.9003 (/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake)
+[0.216s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.243s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.252s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.253s] -- looking for PCL_COMMON
+[0.254s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.277s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.278s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.355s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.407s] -- Found ros_environment: 3.2.2 (/opt/ros/humble/share/ros_environment/cmake)
+[0.408s] -- Found rosbag2_cpp: 0.15.15 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[0.422s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.424s] -- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.474s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.477s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.544s] -- Configuring done
+[0.593s] -- Generating done
+[0.609s] -- Build files have been written to: /home/olee/olee_ros2_ws/src/build/cartographer_ros
+[0.617s] Invoked command in '/home/olee/olee_ros2_ws/src/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs:/home/olee/olee_ros2_ws/install/ydlidar_sdk:/home/olee/olee_ros2_ws/install/ydlidar_ros2_driver:/home/olee/olee_ros2_ws/install/tflidar_ros:/home/olee/olee_ros2_ws/install/slam_toolbox:/home/olee/ros2_ws/install/ydlidar_sdk:/home/olee/ros2_ws/install/ydlidar_ros2_driver:/home/olee/ros2_ws/install/rf2o_laser_odometry:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/olee/olee_ros2_ws/src/cartographer_ros-ros2/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/cartographer_ros
+[0.619s] Invoking command in '/home/olee/olee_ros2_ws/src/build/cartographer_ros': AMENT_PREFIX_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs:/home/olee/olee_ros2_ws/install/ydlidar_sdk:/home/olee/olee_ros2_ws/install/ydlidar_ros2_driver:/home/olee/olee_ros2_ws/install/tflidar_ros:/home/olee/olee_ros2_ws/install/slam_toolbox:/home/olee/ros2_ws/install/ydlidar_sdk:/home/olee/ros2_ws/install/ydlidar_ros2_driver:/home/olee/ros2_ws/install/rf2o_laser_odometry:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/olee/olee_ros2_ws/src/build/cartographer_ros -- -j12 -l12
+[0.671s] [35m[1mConsolidate compiler generated dependencies of target cartographer_ros[0m
+[0.773s] [ 60%] Built target cartographer_ros
+[0.784s] [35m[1mConsolidate compiler generated dependencies of target cartographer_occupancy_grid_node[0m
+[0.785s] [35m[1mConsolidate compiler generated dependencies of target cartographer_offline_node[0m
+[0.785s] [35m[1mConsolidate compiler generated dependencies of target cartographer_node[0m
+[0.785s] [35m[1mConsolidate compiler generated dependencies of target cartographer_assets_writer[0m
+[0.786s] [35m[1mConsolidate compiler generated dependencies of target cartographer_pbstream_to_ros_map[0m
+[0.786s] [35m[1mConsolidate compiler generated dependencies of target cartographer_pbstream_map_publisher[0m
+[0.786s] [35m[1mConsolidate compiler generated dependencies of target cartographer_rosbag_validate[0m
+[0.808s] [ 65%] Built target cartographer_offline_node
+[0.808s] [ 71%] Built target cartographer_occupancy_grid_node
+[0.811s] [ 77%] Built target cartographer_pbstream_map_publisher
+[0.811s] [ 82%] Built target cartographer_assets_writer
+[0.812s] [ 88%] Built target cartographer_pbstream_to_ros_map
+[0.816s] [ 94%] Built target cartographer_node
+[0.817s] [100%] Built target cartographer_rosbag_validate
+[0.827s] Invoked command in '/home/olee/olee_ros2_ws/src/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs:/home/olee/olee_ros2_ws/install/ydlidar_sdk:/home/olee/olee_ros2_ws/install/ydlidar_ros2_driver:/home/olee/olee_ros2_ws/install/tflidar_ros:/home/olee/olee_ros2_ws/install/slam_toolbox:/home/olee/ros2_ws/install/ydlidar_sdk:/home/olee/ros2_ws/install/ydlidar_ros2_driver:/home/olee/ros2_ws/install/rf2o_laser_odometry:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/olee/olee_ros2_ws/src/build/cartographer_ros -- -j12 -l12
+[0.828s] Invoking command in '/home/olee/olee_ros2_ws/src/build/cartographer_ros': AMENT_PREFIX_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs:/home/olee/olee_ros2_ws/install/ydlidar_sdk:/home/olee/olee_ros2_ws/install/ydlidar_ros2_driver:/home/olee/olee_ros2_ws/install/tflidar_ros:/home/olee/olee_ros2_ws/install/slam_toolbox:/home/olee/ros2_ws/install/ydlidar_sdk:/home/olee/ros2_ws/install/ydlidar_ros2_driver:/home/olee/ros2_ws/install/rf2o_laser_odometry:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/olee/olee_ros2_ws/src/build/cartographer_ros
+[0.835s] -- Install configuration: ""
+[0.835s] -- Execute custom install script
+[0.835s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_node
+[0.836s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node
+[0.836s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node
+[0.836s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer
+[0.836s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher
+[0.836s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map
+[0.836s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate
+[0.837s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/assets_writer.h
+[0.837s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/map_builder_bridge.h
+[0.837s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/metrics/family_factory.h
+[0.837s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/metrics/internal/counter.h
+[0.837s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/metrics/internal/family.h
+[0.837s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/metrics/internal/gauge.h
+[0.837s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/metrics/internal/histogram.h
+[0.838s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/msg_conversion.h
+[0.838s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/node.h
+[0.838s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/node_constants.h
+[0.838s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/node_options.h
+[0.838s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/offline_node.h
+[0.838s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/playable_bag.h
+[0.838s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/ros_log_sink.h
+[0.838s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/ros_map.h
+[0.838s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/ros_map_writing_points_processor.h
+[0.838s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/sensor_bridge.h
+[0.838s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/submap.h
+[0.839s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/tf_bridge.h
+[0.839s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/time_conversion.h
+[0.839s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/trajectory_options.h
+[0.839s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/include/cartographer_ros/cartographer_ros/urdf_reader.h
+[0.839s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d.lua
+[0.839s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d_ci.lua
+[0.839s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_3d.lua
+[0.840s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_ros_map.lua
+[0.840s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d.lua
+[0.840s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization.lua
+[0.840s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization_evaluation.lua
+[0.840s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_server.lua
+[0.840s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d.lua
+[0.840s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d_localization.lua
+[0.840s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_2d.rviz
+[0.840s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_3d.rviz
+[0.840s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/mir-100-mapping.lua
+[0.840s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/pr2.lua
+[0.841s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/revo_lds.lua
+[0.841s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/taurob_tracker.lua
+[0.841s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/transform.lua
+[0.841s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/visualize_pbstream.lua
+[0.841s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//urdf/backpack_2d.urdf
+[0.841s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//urdf/backpack_3d.urdf
+[0.841s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//urdf/mir-100.urdf
+[0.842s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_2d.launch.py
+[0.842s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_3d.launch.py
+[0.842s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_ros_map.launch.py
+[0.842s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/backpack_2d.launch.py
+[0.842s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/backpack_3d.launch.py
+[0.842s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d.launch.py
+[0.842s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d_localization.launch.py
+[0.842s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d.launch.py
+[0.842s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d_localization.launch.py
+[0.842s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/demo_pr2.launch
+[0.842s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/demo_revo_lds.launch.py
+[0.843s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/demo_taurob_tracker.launch.py
+[0.843s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d.launch
+[0.843s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d_localization.launch
+[0.843s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_2d.launch.py
+[0.843s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_3d.launch.py
+[0.843s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/offline_mir_100_rviz.launch.py
+[0.843s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/offline_node.launch.py
+[0.843s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/taurob_tracker.launch.py
+[0.843s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros//launch/visualize_pbstream.launch.py
+[0.843s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/environment/library_path.sh
+[0.843s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/environment/library_path.dsv
+[0.843s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/ament_index/resource_index/package_run_dependencies/cartographer_ros
+[0.843s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/ament_index/resource_index/parent_prefix_path/cartographer_ros
+[0.844s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.sh
+[0.844s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.dsv
+[0.844s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/environment/path.sh
+[0.844s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/environment/path.dsv
+[0.844s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/local_setup.bash
+[0.844s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/local_setup.sh
+[0.844s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/local_setup.zsh
+[0.844s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/local_setup.dsv
+[0.844s] -- Symlinking: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/package.dsv
+[0.851s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/ament_index/resource_index/packages/cartographer_ros
+[0.851s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_targets-extras.cmake
+[0.852s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.852s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[0.852s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.852s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake
+[0.852s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig-version.cmake
+[0.852s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/package.xml
+[0.852s] -- Up-to-date: /home/olee/olee_ros2_ws/src/install/cartographer_ros/lib/libcartographer_ros.so
+[0.852s] -- Up-to-date: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosExport.cmake
+[0.852s] -- Up-to-date: /home/olee/olee_ros2_ws/src/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosExport-noconfig.cmake
+[0.854s] Invoked command in '/home/olee/olee_ros2_ws/src/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs:/home/olee/olee_ros2_ws/install/ydlidar_sdk:/home/olee/olee_ros2_ws/install/ydlidar_ros2_driver:/home/olee/olee_ros2_ws/install/tflidar_ros:/home/olee/olee_ros2_ws/install/slam_toolbox:/home/olee/ros2_ws/install/ydlidar_sdk:/home/olee/ros2_ws/install/ydlidar_ros2_driver:/home/olee/ros2_ws/install/rf2o_laser_odometry:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olee/olee_ros2_ws/src/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/olee/olee_ros2_ws/src/build/cartographer_ros

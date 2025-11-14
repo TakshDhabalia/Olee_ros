@@ -1,0 +1,53 @@
+[0.020s] Invoking command in '/home/olee/olee_ros2_ws/src/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake /home/olee/olee_ros2_ws/src/csm-ros2_csm_eigen -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/csm
+[0.193s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.193s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.193s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.193s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.193s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.193s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.193s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.193s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.193s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.193s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.262s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.397s] -- Configuring done
+[0.406s] -- Generating done
+[0.409s] -- Build files have been written to: /home/olee/olee_ros2_ws/src/build/csm
+[0.417s] Invoked command in '/home/olee/olee_ros2_ws/src/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake /home/olee/olee_ros2_ws/src/csm-ros2_csm_eigen -DCMAKE_INSTALL_PREFIX=/home/olee/olee_ros2_ws/src/install/csm
+[0.419s] Invoking command in '/home/olee/olee_ros2_ws/src/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --build /home/olee/olee_ros2_ws/src/build/csm -- -j12 -l12
+[0.464s] [35m[1mConsolidate compiler generated dependencies of target csm[0m
+[0.494s] [100%] Built target csm
+[0.501s] Invoked command in '/home/olee/olee_ros2_ws/src/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --build /home/olee/olee_ros2_ws/src/build/csm -- -j12 -l12
+[0.503s] Invoking command in '/home/olee/olee_ros2_ws/src/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --install /home/olee/olee_ros2_ws/src/build/csm
+[0.510s] -- Install configuration: ""
+[0.510s] -- Execute custom install script
+[0.511s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/lib/libcsm.so
+[0.511s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/include/..//include/csm/algos.h
+[0.511s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/include/..//include/csm/csm.h
+[0.511s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/include/..//include/csm/laser_data.h
+[0.512s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/include/..//include/csm/laser_data_inline.h
+[0.512s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/include/..//include/csm/restrict.h
+[0.512s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/include/..//include/gsl_eigen/gsl_eigen.h
+[0.512s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/resource/csm
+[0.512s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/include/../gsl_eigen/gsl_eigen.h
+[0.513s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/environment/library_path.sh
+[0.513s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/environment/library_path.dsv
+[0.513s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/ament_index/resource_index/package_run_dependencies/csm
+[0.513s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/ament_index/resource_index/parent_prefix_path/csm
+[0.513s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/environment/ament_prefix_path.sh
+[0.514s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/environment/ament_prefix_path.dsv
+[0.514s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/environment/path.sh
+[0.514s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/environment/path.dsv
+[0.514s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/local_setup.bash
+[0.514s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/local_setup.sh
+[0.514s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/local_setup.zsh
+[0.515s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/local_setup.dsv
+[0.515s] -- Symlinking: /home/olee/olee_ros2_ws/src/install/csm/share/csm/package.dsv
+[0.524s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/ament_index/resource_index/packages/csm
+[0.524s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.524s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.524s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/cmake/ament_cmake_export_libraries-extras.cmake
+[0.524s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/cmake/csmConfig.cmake
+[0.524s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/cmake/csmConfig-version.cmake
+[0.525s] -- Up-to-date symlink: /home/olee/olee_ros2_ws/src/install/csm/share/csm/package.xml
+[0.527s] Invoked command in '/home/olee/olee_ros2_ws/src/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olee/olee_ros2_ws/install/master_olee_controller:/opt/ros/humble /usr/bin/cmake --install /home/olee/olee_ros2_ws/src/build/csm
